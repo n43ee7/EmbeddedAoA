@@ -44,7 +44,7 @@ NULL
 ### User Interface Software commands
 To interact with this device, a virtual COM port is established using a 115200 baud, 8N1 protocol with no hardware handshaking. Below are the supported commands:
 
-- **"reset"**: Initiates a hardware reset when received.
+- `"reset"`: Initiates a hardware reset when received.
   
 - **"average"**: Displays the average value (in DAC units and SPL) of each microphone.
 
