@@ -1,4 +1,4 @@
-# Embedded Device AoA/TDoA approximation using Real-time Embedded DSP
+# Embedded Device AoA/TDoA approximation using Real-time DSP
 
 ## MPU Hardware Details 
 - Target Hardware: Texas Instruments Tiva-C (TM123GH6PM) MPU Developer kit 
