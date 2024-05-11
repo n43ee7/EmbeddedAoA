@@ -15,7 +15,10 @@
 ## Software/Programming Details 
 - IDE Prototyped on: Texas Instruments Code Composer Studio V15 
 - Programming Target Language: C/99 
-- Programming Dependencies: NONE (ALL CUSTOM DEPENDENCIES in source/include) 
+- Programming Dependencies: NONE (ALL CUSTOM DEPENDENCIES in source/include)
+- Software Implementations/Algorithms:
+    - Direct ADC trigger response sampling (source/D-ADC)
+    - uDMA Ping-Pong Time sampling (source/uDMA) 
 
 ## Licensing and Usage 
 The product was designed under MIT licensing. The owner of this repository claims no responsibility for using this software package. The contributor approved no commercial usage. The repository was designed solely for academic purposes, and the contributor claims no responsibility for usage against academic integrity policies if applicable.
