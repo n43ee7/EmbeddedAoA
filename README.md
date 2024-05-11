@@ -31,7 +31,8 @@
 | #4 x ¼” sheet metal screw                 | 3 or 4   |
 | 80x120cm FR4 PC board                     | 1        |
 ### PCB Modeling
-NULL
+![Hardware Schematic Image](https://github.com/n43ee7/EmbeddedAoA/assets/47240597/fbf429cd-7078-4f89-b843-2862bc6289df)
+
 
 ## Software
 ### Programming Details 
