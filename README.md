@@ -11,7 +11,27 @@
   - Gated Clocks - PLL @ 40 MHz 
 
 ## ASIC Hardware Details
-
+### Hardware BoM
+| Part                                      | Quantity |
+|-------------------------------------------|----------|
+| TM4C123G evaluation board (ARM M4F)      | 1        |
+| LM2902 (quad op amp)                      | 1        |
+| 2.2kΩ, 5% resistor (mic bias)            | 3 or 4   |
+| 1kΩ, 5% resistor (inverting input)       | 3 or 4   |
+| 10kΩ, 5% resistor (shunt input)          | 3 or 4   |
+| 100kΩ, 5% resistor (amplifiers)          | 3 or 4   |
+| 0.1μF capacitor (supply bypassing)        | 2 or more|
+| 1μF capacitor (microphone AC coupler)    | 3 or 4   |
+| 10μF capacitor (supply)                   | 1        |
+| 14pin 300mil socket (op amp)             | 1        |
+| 2x10 double-row header, unshrouded        | 2        |
+| CMC-9745-44P microphone                   | 3 or 4   |
+| Microphone holder (short)                 | 3        |
+| Microphone holder (tall)                  | 1 optional|
+| #4 x ¼” sheet metal screw                 | 3 or 4   |
+| 80x120cm FR4 PC board                     | 1        |
+### PCB Modeling
+NULL
 ## Software/Programming Details 
 - IDE Prototyped on: Texas Instruments Code Composer Studio V15 
 - Programming Target Language: C/99 
