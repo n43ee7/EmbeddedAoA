@@ -43,28 +43,29 @@ NULL
     - uDMA Ping-Pong Time sampling (source/uDMA) 
 ### User Interface Software commands
 To interact with this device, a virtual COM port is established using a 115200 baud, 8N1 protocol with no hardware handshaking. Below are the supported commands:
+To interact with this device, a virtual COM port is established using a 115200 baud, 8N1 protocol with no hardware handshaking. Below are the supported commands:
 
-- `"reset"`: Initiates a hardware reset when received.
+- `reset`: Initiates a hardware reset when received.
   
-- **"average"**: Displays the average value (in DAC units and SPL) of each microphone.
+- `average`: Displays the average value (in DAC units and SPL) of each microphone.
 
-- **"level"**: Updates the reference level of the comparator to determine the detection threshold.
+- `level`: Updates the reference level of the comparator to determine the detection threshold.
 
-- **"backoff B"**: Sets the backoff between the first and subsequent microphone signal threshold levels. If "B" is missing, returns the current setting.
+- `backoff B`: Sets the backoff between the first and subsequent microphone signal threshold levels. If "B" is missing, returns the current setting.
 
-- **"holdoff H"**: Sets the minimum time before the next event can be detected. If "H" is missing, returns the current setting.
+- `holdoff H`: Sets the minimum time before the next event can be detected. If "H" is missing, returns the current setting.
 
-- **"hysteresis Y"**: Determines the decrease in the average required after an "event" before the next event can be detected. If "Y" is missing, returns to the current setting.
+- `hysteresis Y`: Determines the decrease in the average required after an "event" before the next event can be detected. If "Y" is missing, returns the current setting.
 
-- **"aoa"**: Returns the most current angle of arrival (theta and optionally theta and phi).
+- `aoa`: Returns the most current angle of arrival (theta and optionally theta and phi).
 
-- **"aoa always"**: Displays the AoA information of each "event" as it is detected.
+- `aoa always|stop`: Controls the display of the AoA information of each "event" as it is detected.
 
-- **"tdoa ON|OFF"**: Enables or disables the display of TDoA data for qualified events (when all sensors detect the signal within the possible time window) when AoA data is shown.
+- `tdoa ON|OFF`: Enables or disables the display of TDoA data for qualified events (when all sensors detect the signal within the possible time window) when AoA data is shown.
 
-- **"fail ON|OFF"**: Enables or disables the display of partial data from the sensors when there is no qualified event (when TDoA is greater than possible or is incomplete).
+- `fail ON|OFF`: Enables or disables the display of partial data from the sensors when there is no qualified event (when TDoA is greater than possible or is incomplete).
 
-- **"help"**: Displays the terminal help menu.
-- 
+- `help` : Displays the Terminal system help menu 
+  
 ## Licensing and Usage 
 The product was designed under MIT licensing. The owner of this repository claims no responsibility for using this software package. The contributor approved no commercial usage. The repository was designed solely for academic purposes, and the contributor claims no responsibility for usage against academic integrity policies if applicable.
