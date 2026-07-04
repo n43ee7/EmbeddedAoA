@@ -10,7 +10,7 @@
   - NVIC Interrupts (ADC, Comparator) 
   - Gated Clocks - PLL @ 40 MHz 
 
-## ASIC Hardware Details
+## Hardware Details
 ### Hardware BoM
 | Part                                      | Quantity |
 |-------------------------------------------|----------|
